@@ -1,0 +1,17 @@
+/* Estilo inicial de la clase */
+.contenedor {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 600px) {
+    .contenedor {
+        width: 95%;
+        padding: 10px;
+    }
+}

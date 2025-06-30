@@ -1,21 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Gestión</title>
-    <!-- Si no tienes styles.css, elimina esta línea o crea el archivo -->
-    <link rel="stylesheet" href="diseño.css">
+    <meta charset="UTF-8">
+    <title>Portafolio - Mi Gestión</title>
+    <link rel="stylesheet" href="diseño.css"> <!-- Asegúrate de que el nombre coincida con tu archivo CSS -->
 </head>
 <body>
-    <h1>Bienvenido</h1>
-    <div class="contenedor">
-        <p>Este es un ejemplo de adaptación de clase CSS.</p>
+    <header>
+        <h1>Bienvenido a mi Portafolio</h1>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </nav> <!-- Cierra la etiqueta nav aquí -->
-    </div>
+        </nav>
+    </header>
+
+    <section id="sobre-mi" class="contenedor">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador apasionado por crear soluciones web. Este portafolio muestra mi trabajo y habilidades en integración continua con GitHub Actions.</p>
+    </section>
+
+    <section id="proyectos" class="contenedor">
+        <h2>Proyectos</h2>
+        <p>Aquí irían detalles de mis proyectos. Por ahora, este es un ejemplo para la Tarea 2.</p>
+        <!-- Puedes añadir más proyectos si quieres -->
+    </section>
+
+    <section id="contacto" class="contenedor">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en: ejemplo@correo.com</p>
+    </section>
 </body>
 </html>
